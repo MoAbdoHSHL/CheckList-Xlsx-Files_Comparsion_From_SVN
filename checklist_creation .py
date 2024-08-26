@@ -268,7 +268,7 @@ End Function
     wb.save(excel_path)
 
 def main():
-    excel_path = r'D:/NoBackup/svn/IPB_22kW_auto_pag/2309_Design_Review/checklist creation/Example_PAG_IPB22_Com_oru_SW_Component_Code_Review.xlsx'
+    excel_path = r'D:local file path.xlsx'
     
     # Create or update the 'FileList' sheet
     create_update_file_list(excel_path)
